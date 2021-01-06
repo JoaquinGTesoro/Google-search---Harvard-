@@ -1,0 +1,23 @@
+.search-button {
+  background-color: rgba(209, 209, 209, 0.2);
+  border: none;
+  padding: 0.5em 2em;
+  font-size: 0.9em;
+  color: #363636;
+  border-radius: 5px;
+}
+
+.search-button:hover {
+  cursor: pointer;
+  border: solid 1px #d1d1d1;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.subtitle {
+  color: #4285f4;
+  position: absolute;
+  top: 15em;
+  margin-left: 15em;
+}
+/*# sourceMappingURL=search.css.map */

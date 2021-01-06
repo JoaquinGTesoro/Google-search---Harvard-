@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header li {
+  list-style: none;
+  font-size: 0.8em;
+}
+
+header li:first-child {
+  margin-right: 1em;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1em;
+  width: 50vw;
+}
+
+main h1 {
+  font-size: 3em;
+}
+
+main h1 .red {
+  color: #ea4335;
+}
+
+main h1 .blue {
+  color: #4285f4;
+}
+
+main h1 .green {
+  color: #34a853;
+}
+
+main h1 .yellow {
+  color: #fbbc05;
+}
+
+main form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 1em;
+}
+
+main form .container {
+  margin-bottom: 2em;
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main form .container label {
+  max-width: 25vw;
+}
+
+main form .container input {
+  width: 30vw;
+  height: 1.5em;
+  border: solid 1px #d1d1d1;
+}
+
+main form .search-btn {
+  background-color: #4285f4;
+  border: solid 1px transparent;
+  padding: 0.5em 2em;
+  font-size: 0.9em;
+  color: white;
+  border-radius: 5px;
+  justify-self: flex-end;
+}
+
+main form .search-btn:hover {
+  cursor: pointer;
+  border: solid 1px #254981;
+  -webkit-box-shadow: inset 1px 1px 10px rgba(37, 73, 129, 0.2);
+          box-shadow: inset 1px 1px 10px rgba(37, 73, 129, 0.2);
+}
+
+main form .search-btn:active {
+  -webkit-box-shadow: inset 3px 3px 10px rgba(37, 73, 129, 0.2);
+          box-shadow: inset 3px 3px 10px rgba(37, 73, 129, 0.2);
+}
+/*# sourceMappingURL=advanced.css.map */

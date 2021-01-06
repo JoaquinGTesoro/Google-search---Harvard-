@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header li {
+  list-style: none;
+  font-size: 0.8em;
+}
+
+header li:first-child {
+  margin-right: 1em;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10vh;
+}
+
+main h1 {
+  font-size: 5em;
+  letter-spacing: -0.3rem;
+}
+
+main h1 .red {
+  color: #ea4335;
+}
+
+main h1 .blue {
+  color: #4285f4;
+}
+
+main h1 .green {
+  color: #34a853;
+}
+
+main h1 .yellow {
+  color: #fbbc05;
+}
+
+main form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -2em;
+}
+
+main form .search-bar {
+  width: 40vw;
+  height: 2.5rem;
+  margin-bottom: 2em;
+  border-radius: 30px;
+  border: solid 1px #d1d1d1;
+  font-size: 1.2em;
+  color: rgba(0, 0, 0, 0.8);
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+main form .search-bar:hover, main form .search-bar:focus {
+  -webkit-transform: scale(101%);
+          transform: scale(101%);
+  border: none;
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2), -2px -2px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2), -2px -2px 4px rgba(0, 0, 0, 0.2);
+}
+
+main form .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main form .buttons input {
+  background-color: rgba(209, 209, 209, 0.2);
+  border: solid 1px transparent;
+  padding: 0.5em 2em;
+  font-size: 0.9em;
+  color: #363636;
+  border-radius: 5px;
+}
+
+main form .buttons input:first-child {
+  margin-right: 1em;
+}
+
+main form .buttons input:hover {
+  cursor: pointer;
+  border: solid 1px #d1d1d1;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+/*# sourceMappingURL=main.css.map */
